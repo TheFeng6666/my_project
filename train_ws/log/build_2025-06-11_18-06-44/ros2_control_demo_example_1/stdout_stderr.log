@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_1[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library libros2_control_demo_example_1.so[0m
+[100%] Built target ros2_control_demo_example_1
+-- Install configuration: ""
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/ros2_control_demo_example_1.xml
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/fashionstar_servo
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1/rrbot.hpp
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/description
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/description/mybot.urdf.xacro
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/view_rrbot.launch.py
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/rrbot.launch.py
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_joint_trajectory_controller.launch.py
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_forward_position_controller.launch.py
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_controllers.yaml
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_forward_position_publisher.yaml
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_hardware.yaml
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_joint_trajectory_publisher.yaml
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so
+-- Set runtime path of "/home/feng/train_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so" to ""
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.sh
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.dsv
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_1
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_1
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.sh
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.dsv
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.sh
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.dsv
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.bash
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.sh
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.zsh
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.dsv
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/packages/ros2_control_demo_example_1
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_1
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export.cmake
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export-noconfig.cmake
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config.cmake
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config-version.cmake
+-- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.xml

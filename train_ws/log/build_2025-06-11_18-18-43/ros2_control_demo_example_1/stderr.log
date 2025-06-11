@@ -1,0 +1,59 @@
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortBase.cpp:[m[K In constructor ‘[01m[KCSerialPortBase::CSerialPortBase(const string&)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortBase.cpp:12:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KportName[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | CSerialPortBase::CSerialPortBase([01;35m[Kconst std::string &portName[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/SerialPort.h:22[m[K,
+                 from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPort.cpp:1[m[K:
+/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h: In instantiation of ‘[01m[Kvoid sigslot::_signal_base0<mt_policy>::disconnect_all() [with mt_policy = sigslot::multi_threaded_local][m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPort.cpp:38:68:[m[K   required from here
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:353:33:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[Ksigslot::_connection_base0<sigslot::multi_threaded_local>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+  353 |                                 [01;35m[Kdelete *it[m[K;
+      |                                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:[m[K In member function ‘[01m[Kuint8_t fsuservo::FSUS_Protocol::recvQueryServoMonitor(fsuservo::FSUS_SERVO_ID_T*, fsuservo::FSUS_ServoMonitor*)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:576:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KservoId[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  576 | FSUS_STATUS FSUS_Protocol::recvQueryServoMonitor([01;35m[KFSUS_SERVO_ID_T *servoId[m[K, FSUS_ServoMonitor *servodata){
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In constructor ‘[01m[KCSerialPortUnixBase::CSerialPortUnixBase(const string&)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:9:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KportName[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | CSerialPortUnixBase::CSerialPortUnixBase([01;35m[Kconst std::string &portName[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kint CSerialPortUnixBase::uart_set(int, int, itas109::Parity, itas109::DataBits, itas109::StopBits, itas109::FlowControl)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:91:9:[m[K [01;35m[Kwarning: [m[Kcase value ‘[01m[K78[m[K’ not in enumerated type ‘[01m[Kitas109::Parity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   91 |         [01;35m[Kcase[m[K 'N':
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In static member function ‘[01m[Kstatic void* CSerialPortUnixBase::commThreadMonitor(void*)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:233:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  233 |             if ([01;35m[Kreadbytes >= p_base->getMinByteReadNotify()[m[K) //设定字符数，默认为2
+      |                 [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual int CSerialPortUnixBase::readLineData(char*, int)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:386:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  386 | int CSerialPortUnixBase::readLineData([01;35m[Kchar *data[m[K, int maxSize)
+      |                                       [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:386:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmaxSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  386 | int CSerialPortUnixBase::readLineData(char *data, [01;35m[Kint maxSize[m[K)
+      |                                                   [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setDebugModel(bool)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:426:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KisDebug[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  426 | void CSerialPortUnixBase::setDebugModel([01;35m[Kbool isDebug[m[K)
+      |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setReadTimeInterval(int)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:431:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsecs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  431 | void CSerialPortUnixBase::setReadTimeInterval([01;35m[Kint msecs[m[K)
+      |                                               [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setDtr(bool)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:521:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  521 | void CSerialPortUnixBase::setDtr([01;35m[Kbool set[m[K /*= true*/) {}
+      |                                  [01;35m[K~~~~~^~~[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setRts(bool)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:523:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  523 | void CSerialPortUnixBase::setRts([01;35m[Kbool set[m[K /*= true*/) {}
+      |                                  [01;35m[K~~~~~^~~[m[K
+In file included from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/SerialPortUnixBase.h:34[m[K,
+                 from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:1[m[K:
+/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h: In instantiation of ‘[01m[Kvoid sigslot::_signal_base0<mt_policy>::disconnect_all() [with mt_policy = sigslot::multi_threaded_local][m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:341:4:[m[K   required from ‘[01m[Ksigslot::_signal_base0<mt_policy>::~_signal_base0() [with mt_policy = sigslot::multi_threaded_local][m[K’
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:470:3:[m[K   required from ‘[01m[Ksigslot::signal0<mt_policy>::signal0() [with mt_policy = sigslot::multi_threaded_local][m[K’
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:4:42:[m[K   required from here
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:353:33:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[Ksigslot::_connection_base0<sigslot::multi_threaded_local>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+  353 |                                 [01;35m[Kdelete *it[m[K;
+      |                                 [01;35m[K^~~~~~~~~~[m[K

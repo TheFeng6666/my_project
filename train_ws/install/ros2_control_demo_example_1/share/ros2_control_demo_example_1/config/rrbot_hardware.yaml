@@ -1,0 +1,17 @@
+# hardware:
+#   ros__parameters:
+#     port_name: "/dev/ttyUSB0"
+#     baud_rate: "115200"
+
+#     joints:
+#       - name: joint1
+#         parameters:
+#           servo_id: "2" 
+
+hardware:
+  ros__parameters:
+    port_name: "/dev/ttyUSB0"
+    baud_rate: 115200
+    joints:
+      joint1:
+        servo_id: 2

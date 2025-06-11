@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libfsuservo.so -o libfsuservo.so CMakeFiles/fsuservo.dir/src/FashionStar_UartServo.cpp.o CMakeFiles/fsuservo.dir/src/FashionStar_UartServoProtocol.cpp.o  -Wl,-rpath,/home/feng/train_ws/src/example_1/hardware/src/build/sdk/dependency/CSerialPort/lib dependency/CSerialPort/lib/libcserialport.so -lpthread 

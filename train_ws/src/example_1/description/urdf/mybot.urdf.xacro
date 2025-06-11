@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mybot">
+  <xacro:macro name="mybot" params="parent *origin">
+
+    <!-- Constants for robot dimensions -->
+  <xacro:property name="mass" value="1" /> <!-- arbitrary value for mass -->
+  <xacro:property name="width" value="0.1" /> <!-- Square dimensions (widthxwidth) of beams -->
+  <xacro:property name="height1" value="2" /> <!-- Base Link -->
+  <xacro:property name="height2" value="1" /> <!-- Link 1 -->
+  <xacro:property name="axel_offset" value="0.05" /> <!-- Space btw top of beam and the each joint -->
+
+    <joint name="base_joint" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent}"/>
+      <child link="base_link" />
+    </joint>
+
+    <!-- Base Link -->
+    <link name="base_link">
+      <collision>
+        <origin xyz="0 0 ${height1/2}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${width} ${width} ${height1}"/>
+        </geometry>
+      </collision>
+
+      <visual>
+        <origin xyz="0 0 ${height1/2}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${width} ${width} ${height1}"/>
+        </geometry>
+        <material name="orange">
+          <color rgba="1 0.5 0 1"/>
+        </material>
+      </visual>
+
+      <inertial>
+        <origin xyz="0 0 ${height1/2}" rpy="0 0 0"/>
+        <mass value="${mass}"/>
+        <inertia
+          ixx="${mass / 12.0 * (width*width + height1*height1)}" ixy="0.0" ixz="0.0"
+          iyy="${mass / 12.0 * (height1*height1 + width*width)}" iyz="0.0"
+          izz="${mass / 12.0 * (width*width + width*width)}"/>
+      </inertial>
+    </link>
+  <!-- Joint 1 -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <!-- <dynamics damping="0.7"/> -->
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="1"/>
+  </joint>
+
+    <!-- Middle Link -->
+    <link name="link1">
+      <collision>
+        <origin xyz="0 0 2" rpy="0 0 0"/>
+        <geometry>
+          <box size="${width} ${width} ${height2}"/>
+        </geometry>
+      </collision>
+
+      <visual>
+        <origin xyz="0 0 ${height2/2 - axel_offset}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${width} ${width} ${height2}"/>
+        </geometry>
+        <material name="yellow">
+          <color rgba="1 1 0 1"/>
+        </material>
+      </visual>
+
+      <inertial>
+        <origin xyz="0 0 -${height2/2}" rpy="0 0 0"/>
+        <mass value="${mass}"/>
+        <inertia
+          ixx="${mass / 12.0 * (width*width + height2*height2)}" ixy="0.0" ixz="0.0"
+          iyy="${mass / 12.0 * (height2*height2 + width*width)}" iyz="0.0"
+          izz="${mass / 12.0 * (width*width + width*width)}"/>
+      </inertial>
+    </link>
+
+  </xacro:macro>
+
+  <!-- Create the robot -->
+  <link name="world"/>
+  <xacro:mybot parent="world">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:mybot>
+
+  <!-- Import RRBot ros2_control description -->
+  <!-- <xacro:include filename="$(find ros2_control_demo_example_1)/description/ros2_control/rrbot.ros2_control.xacro" /> -->
+
+  <!-- ros2_control configuration -->
+  <ros2_control name="MyBot Control" type="system">
+    <hardware>
+      <plugin>ros2_control_demo_example_1/MyBotSystemPositionOnlyHardware</plugin>
+      <param name="port_name">/dev/ttyUSB0</param>
+      <param name="baud_rate">115200</param>
+    </hardware>
+
+    <joint name="joint1">
+      <command_interface name="position">
+        <param name="min">-1</param>
+        <param name="max">1</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <param name="servo_id">2</param>
+    </joint>
+  </ros2_control>
+
+</robot>

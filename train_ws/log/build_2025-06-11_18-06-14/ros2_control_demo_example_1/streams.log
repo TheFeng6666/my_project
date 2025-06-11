@@ -1,0 +1,108 @@
+[0.010s] Invoking command in '/home/feng/train_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/feng/train_ws/src/example_1 -DCMAKE_INSTALL_PREFIX=/home/feng/train_ws/install/ros2_control_demo_example_1
+[0.068s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting CXX compiler ABI info
+[0.143s] -- Detecting CXX compiler ABI info - done
+[0.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.149s] -- Detecting CXX compile features
+[0.149s] -- Detecting CXX compile features - done
+[0.152s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.352s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.379s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.391s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found hardware_interface: 2.50.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.592s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.614s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.663s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.677s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.680s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.688s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.704s] -- Looking for C++ include pthread.h
+[0.814s] -- Looking for C++ include pthread.h - found
+[0.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.912s] -- Found Threads: TRUE  
+[0.959s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.480s] -- Configuring done
+[2.499s] -- Generating done
+[2.503s] -- Build files have been written to: /home/feng/train_ws/build/ros2_control_demo_example_1
+[2.512s] Invoked command in '/home/feng/train_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/feng/train_ws/src/example_1 -DCMAKE_INSTALL_PREFIX=/home/feng/train_ws/install/ros2_control_demo_example_1
+[2.513s] Invoking command in '/home/feng/train_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8
+[2.554s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[2.554s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServoProtocol.cpp.o[0m
+[2.555s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServo.cpp.o[0m
+[2.555s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/dependency/CSerialPort/src/SerialPort.cpp.o[0m
+[2.555s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/dependency/CSerialPort/src/SerialPortBase.cpp.o[0m
+[2.555s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/dependency/CSerialPort/src/SerialPortInfo.cpp.o[0m
+[2.555s] [ 70%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/dependency/CSerialPort/src/SerialPortInfoBase.cpp.o[0m
+[2.559s] [ 80%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/dependency/CSerialPort/src/SerialPortInfoUnixBase.cpp.o[0m
+[2.744s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortBase.cpp:[m[K In constructor ‘[01m[KCSerialPortBase::CSerialPortBase(const string&)[m[K’:
+[2.744s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortBase.cpp:12:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KportName[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.744s]    12 | CSerialPortBase::CSerialPortBase([01;35m[Kconst std::string &portName[m[K)
+[2.744s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.800s] [ 90%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp.o[0m
+[2.961s] In file included from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/SerialPort.h:22[m[K,
+[2.961s]                  from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPort.cpp:1[m[K:
+[2.961s] /home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h: In instantiation of ‘[01m[Kvoid sigslot::_signal_base0<mt_policy>::disconnect_all() [with mt_policy = sigslot::multi_threaded_local][m[K’:
+[2.961s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPort.cpp:38:68:[m[K   required from here
+[2.962s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:353:33:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[Ksigslot::_connection_base0<sigslot::multi_threaded_local>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[2.962s]   353 |                                 [01;35m[Kdelete *it[m[K;
+[2.962s]       |                                 [01;35m[K^~~~~~~~~~[m[K
+[3.040s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:[m[K In member function ‘[01m[Kuint8_t fsuservo::FSUS_Protocol::recvQueryServoMonitor(fsuservo::FSUS_SERVO_ID_T*, fsuservo::FSUS_ServoMonitor*)[m[K’:
+[3.040s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:576:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KservoId[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.040s]   576 | FSUS_STATUS FSUS_Protocol::recvQueryServoMonitor([01;35m[KFSUS_SERVO_ID_T *servoId[m[K, FSUS_ServoMonitor *servodata){
+[3.040s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.044s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In constructor ‘[01m[KCSerialPortUnixBase::CSerialPortUnixBase(const string&)[m[K’:
+[3.044s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:9:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KportName[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.044s]     9 | CSerialPortUnixBase::CSerialPortUnixBase([01;35m[Kconst std::string &portName[m[K)
+[3.044s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.045s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kint CSerialPortUnixBase::uart_set(int, int, itas109::Parity, itas109::DataBits, itas109::StopBits, itas109::FlowControl)[m[K’:
+[3.045s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:91:9:[m[K [01;35m[Kwarning: [m[Kcase value ‘[01m[K78[m[K’ not in enumerated type ‘[01m[Kitas109::Parity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.045s]    91 |         [01;35m[Kcase[m[K 'N':
+[3.045s]       |         [01;35m[K^~~~[m[K
+[3.046s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In static member function ‘[01m[Kstatic void* CSerialPortUnixBase::commThreadMonitor(void*)[m[K’:
+[3.046s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:233:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.046s]   233 |             if ([01;35m[Kreadbytes >= p_base->getMinByteReadNotify()[m[K) //设定字符数，默认为2
+[3.046s]       |                 [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.047s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual int CSerialPortUnixBase::readLineData(char*, int)[m[K’:
+[3.047s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:386:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.047s]   386 | int CSerialPortUnixBase::readLineData([01;35m[Kchar *data[m[K, int maxSize)
+[3.047s]       |                                       [01;35m[K~~~~~~^~~~[m[K
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:386:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmaxSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.048s]   386 | int CSerialPortUnixBase::readLineData(char *data, [01;35m[Kint maxSize[m[K)
+[3.048s]       |                                                   [01;35m[K~~~~^~~~~~~[m[K
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setDebugModel(bool)[m[K’:
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:426:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KisDebug[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.048s]   426 | void CSerialPortUnixBase::setDebugModel([01;35m[Kbool isDebug[m[K)
+[3.048s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setReadTimeInterval(int)[m[K’:
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:431:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsecs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.048s]   431 | void CSerialPortUnixBase::setReadTimeInterval([01;35m[Kint msecs[m[K)
+[3.048s]       |                                               [01;35m[K~~~~^~~~~[m[K
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setDtr(bool)[m[K’:
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:521:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.048s]   521 | void CSerialPortUnixBase::setDtr([01;35m[Kbool set[m[K /*= true*/) {}
+[3.048s]       |                                  [01;35m[K~~~~~^~~[m[K
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:[m[K In member function ‘[01m[Kvirtual void CSerialPortUnixBase::setRts(bool)[m[K’:
+[3.048s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:523:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.048s]   523 | void CSerialPortUnixBase::setRts([01;35m[Kbool set[m[K /*= true*/) {}
+[3.048s]       |                                  [01;35m[K~~~~~^~~[m[K
+[3.071s] In file included from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/SerialPortUnixBase.h:34[m[K,
+[3.071s]                  from [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:1[m[K:
+[3.071s] /home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h: In instantiation of ‘[01m[Kvoid sigslot::_signal_base0<mt_policy>::disconnect_all() [with mt_policy = sigslot::multi_threaded_local][m[K’:
+[3.071s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:341:4:[m[K   required from ‘[01m[Ksigslot::_signal_base0<mt_policy>::~_signal_base0() [with mt_policy = sigslot::multi_threaded_local][m[K’
+[3.071s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:470:3:[m[K   required from ‘[01m[Ksigslot::signal0<mt_policy>::signal0() [with mt_policy = sigslot::multi_threaded_local][m[K’
+[3.071s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/src/SerialPortUnixBase.cpp:4:42:[m[K   required from here
+[3.071s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/dependency/CSerialPort/include/CSerialPort/sigslot.h:353:33:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[Ksigslot::_connection_base0<sigslot::multi_threaded_local>[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[3.071s]   353 |                                 [01;35m[Kdelete *it[m[K;
+[3.071s]       |                                 [01;35m[K^~~~~~~~~~[m[K
+[4.502s] gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:76: CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o] Interrupt
+[4.502s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_example_1.dir/all] Interrupt
+[4.503s] gmake: *** [Makefile:146: all] Interrupt
+[4.518s] Invoked command in '/home/feng/train_ws/build/ros2_control_demo_example_1' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8

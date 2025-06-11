@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\fashionstar-uart-servo-cpp-sdk\fashionstar-uart-servo-cpp-sdk\src\build\CMakeFiles\fba966b40fdc86d0518a2696a2a9f887\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F8D8933F-9D75-3FB3-964A-1E8200F664FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
