@@ -171,7 +171,20 @@ hardware_interface::CallbackReturn MyBotSystemPositionOnlyHardware::on_deactivat
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
   RCLCPP_INFO(get_logger(), "Deactivating ...please wait...");
-  // protocol_->close();
+// 关闭串口
+  if (protocol_) {
+    try {
+      protocol_->closePort();
+      RCLCPP_INFO(get_logger(), "Port closed successfully!");
+    } catch (const std::exception &e) {
+      RCLCPP_ERROR(get_logger(), "Failed to close port: %s", e.what());
+      return hardware_interface::CallbackReturn::ERROR;
+    }
+    protocol_.reset(); // 可选：释放协议对象
+  } else {
+    RCLCPP_WARN(get_logger(), "Protocol not initialized, no port to close.");
+  }
+  servos_.clear();
   RCLCPP_INFO(get_logger(), "Successfully deactivated!");
   return hardware_interface::CallbackReturn::SUCCESS;
 }

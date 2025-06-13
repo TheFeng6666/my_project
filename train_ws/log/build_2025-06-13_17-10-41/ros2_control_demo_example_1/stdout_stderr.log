@@ -1,0 +1,139 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServo.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServoProtocol.cpp.o[0m
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:[m[K In member function ‘[01m[Kuint32_t fsuservo::FSUS_Protocol::millis()[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:42:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   42 | void FSUS_Protocol::closePort[01;31m[K([m[K){
+      |                              [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:49:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   49 | void FSUS_Protocol::delay_ms[01;31m[K([m[Kuint32_t microsecond){
+      |                             [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:59:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   59 | void FSUS_Protocol::write[01;31m[K([m[Kuint8_t value){
+      |                          [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:64:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   64 | bool FSUS_Protocol::read[01;31m[K([m[Kuint8_t* value){
+      |                         [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:77:27:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   77 | int FSUS_Protocol::readAll[01;31m[K([m[Kuint8_t* buffer){
+      |                           [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:82:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   82 | int FSUS_Protocol::available[01;31m[K([m[K){
+      |                             [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:101:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  101 | void FSUS_Protocol::sendPack[01;31m[K([m[K){
+      |                             [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:140:31:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  140 | void FSUS_Protocol::emptyCache[01;31m[K([m[K){
+      |                               [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:149:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  149 | void FSUS_Protocol::initResponsePack[01;31m[K([m[K){
+      |                                     [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:159:36:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  159 | FSUS_STATUS FSUS_Protocol::recvPack[01;31m[K([m[K){
+      |                                    [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:224:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  224 | FSUS_CHECKSUM_T FSUS_Protocol::calcPackChecksum[01;31m[K([m[Kconst FSUS_PACKAGE_T *package){
+      |                                                [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:243:47:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  243 | FSUS_PACKAGE_SIZE_T FSUS_Protocol::getPackSize[01;31m[K([m[Kconst FSUS_PACKAGE_T *package){
+      |                                               [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:249:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  249 | void FSUS_Protocol::sendPing[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                             [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:257:36:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  257 | FSUS_STATUS FSUS_Protocol::recvPing[01;31m[K([m[KFSUS_SERVO_ID_T* servoId, bool *isOnline){
+      |                                    [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:268:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  268 | void FSUS_Protocol::sendSetAngle[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_INTERVAL_T interval,FSUS_POWER_T power){
+      |                                 [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:283:43:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  283 | void FSUS_Protocol::sendSetAngleByInterval[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_INTERVAL_T interval, FSUS_INTERVAL_T t_acc, FSUS_INTERVAL_T t_dec, FSUS_POWER_T power){
+      |                                           [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:302:43:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  302 | void FSUS_Protocol::sendSetAngleByVelocity[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_SERVO_SPEED_T velocity, FSUS_INTERVAL_T t_acc, FSUS_INTERVAL_T t_dec, FSUS_POWER_T power){
+      |                                           [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:322:35:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  322 | void FSUS_Protocol::sendQueryAngle[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                                   [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:330:42:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  330 | FSUS_STATUS FSUS_Protocol::recvQueryAngle[01;31m[K([m[KFSUS_SERVO_ID_T *servoId, FSUS_SERVO_ANGLE_T *angle){
+      |                                          [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:350:38:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  350 | void FSUS_Protocol::sendSetAngleMTurn[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_INTERVAL_T_MTURN interval,FSUS_POWER_T power){
+      |                                      [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:372:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  372 | void FSUS_Protocol::sendSetAngleMTurnByInterval[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle, FSUS_INTERVAL_T_MTURN interval, \
+      |                                                [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:402:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  402 | void FSUS_Protocol::sendSetAngleMTurnByVelocity[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle, FSUS_SERVO_SPEED_T velocity, \
+      |                                                [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:431:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  431 | void FSUS_Protocol::sendQueryAngleMTurn[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                                        [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:439:47:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  439 | FSUS_STATUS FSUS_Protocol::recvQueryAngleMTurn[01;31m[K([m[KFSUS_SERVO_ID_T *servoId, FSUS_SERVO_ANGLE_T *angle){
+      |                                               [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:460:32:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  460 | void FSUS_Protocol::sendDamping[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_POWER_T power){
+      |                                [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:470:38:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  470 | void FSUS_Protocol::sendResetUserData[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                                      [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:478:45:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  478 | FSUS_STATUS FSUS_Protocol::recvResetUserData[01;31m[K([m[KFSUS_SERVO_ID_T *servoId, bool *result){
+      |                                             [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:489:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  489 | void FSUS_Protocol::sendReadData[01;31m[K([m[KFSUS_SERVO_ID_T servoId, uint8_t address){
+      |                                 [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:498:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  498 | FSUS_STATUS FSUS_Protocol::recvReadData[01;31m[K([m[KFSUS_SERVO_ID_T *servoId, uint8_t *address, uint8_t *contentLen, uint8_t *content){
+      |                                        [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:513:34:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  513 | void FSUS_Protocol::sendWriteData[01;31m[K([m[KFSUS_SERVO_ID_T servoId, uint8_t address, uint8_t contentLen, uint8_t *content){
+      |                                  [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:525:41:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  525 | FSUS_STATUS FSUS_Protocol::recvWriteData[01;31m[K([m[KFSUS_SERVO_ID_T *servoId, uint8_t *address, bool *result){
+      |                                         [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:536:39:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  536 | void FSUS_Protocol::sendSetOriginPoint[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                                       [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:545:44:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  545 | void FSUS_Protocol::sendResetMultiTurnAngle[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                                            [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:553:40:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  553 | void FSUS_Protocol::sendServoBeginAsync[01;31m[K([m[K){
+      |                                        [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:560:38:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  560 | void FSUS_Protocol::sendServoEndAsync[01;31m[K([m[KFSUS_MODE_T mode){
+      |                                      [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:572:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  572 | void FSUS_Protocol::sendServoMonitor[01;31m[K([m[KFSUS_SERVO_ID_T servoId){
+      |                                     [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:580:49:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  580 | FSUS_STATUS FSUS_Protocol::recvQueryServoMonitor[01;31m[K([m[KFSUS_SERVO_ID_T *servoId, FSUS_ServoMonitor *servodata){
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:603:42:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  603 | void FSUS_Protocol::sendStopOnControlMode[01;31m[K([m[KFSUS_SERVO_ID_T servoId, FSUS_MODE_T mode, FSUS_POWER_T power){
+      |                                          [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:619:36:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  619 | void FSUS_Protocol::sendSyncCommand[01;31m[K([m[KFSUS_SERVO_COUNT_T servo_count,FSUS_MODE_T sync_mode, FSUS_Sync_T Syncsend[]){
+      |                                    [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:838:48:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  838 | FSUS_STATUS FSUS_Protocol::recvQuerySyncCommand[01;31m[K([m[KFSUS_SERVO_COUNT_T servo_count, FSUS_ServoMonitor Syncmonitor[]) {
+      |                                                [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:888:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  888 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:31:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   31 | uint32_t FSUS_Protocol::millis()[01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:104: CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServoProtocol.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_1::MyBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:174:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<std::shared_ptr<fsuservo::FSUS_Servo> >[m[K’ has no member named ‘[01m[KclosePort[m[K’
+  174 |   servos_.[01;31m[KclosePort[m[K();
+      |           [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:76: CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_example_1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

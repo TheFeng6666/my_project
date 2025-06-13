@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000462] (ros2_control_demo_example_1) JobQueued: {'identifier': 'ros2_control_demo_example_1', 'dependencies': OrderedDict()}
+[0.000551] (ros2_control_demo_example_1) JobStarted: {'identifier': 'ros2_control_demo_example_1'}
+[0.007408] (ros2_control_demo_example_1) JobProgress: {'identifier': 'ros2_control_demo_example_1', 'progress': 'cmake'}
+[0.008940] (ros2_control_demo_example_1) JobProgress: {'identifier': 'ros2_control_demo_example_1', 'progress': 'build'}
+[0.009008] (ros2_control_demo_example_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feng/train_ws/build/ros2_control_demo_example_1', '--', '-j8', '-l8'], 'cwd': '/home/feng/train_ws/build/ros2_control_demo_example_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'feng'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/feng/train_ws/install/ros2_control_demo_example_1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/feng'), ('OLDPWD', '/home/feng'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1971'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/feng/train_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'feng'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'feng'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/feng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/feng-virtual-machine:@/tmp/.ICE-unix/1750,unix/feng-virtual-machine:/tmp/.ICE-unix/1750'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c69407ca_63aa_4b47_b617_811afe7a4160'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DAE172'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/feng/train_ws/install/ros2_control_demo_example_1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/feng/train_ws/build/ros2_control_demo_example_1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/feng/train_ws/install/ros2_control_demo_example_1:/opt/ros/humble')]), 'shell': False}
+[0.100224] (-) TimerEvent: {}
+[0.193100] (ros2_control_demo_example_1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServo.cpp.o\x1b[0m\n'}
+[0.193334] (ros2_control_demo_example_1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o\x1b[0m\n'}
+[0.193398] (ros2_control_demo_example_1) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServoProtocol.cpp.o\x1b[0m\n'}
+[0.200615] (-) TimerEvent: {}
+[0.301320] (-) TimerEvent: {}
+[0.401877] (-) TimerEvent: {}
+[0.503408] (-) TimerEvent: {}
+[0.604438] (-) TimerEvent: {}
+[0.705255] (-) TimerEvent: {}
+[0.806159] (-) TimerEvent: {}
+[0.906841] (-) TimerEvent: {}
+[1.007337] (-) TimerEvent: {}
+[1.108160] (-) TimerEvent: {}
+[1.208804] (-) TimerEvent: {}
+[1.254825] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint32_t fsuservo::FSUS_Protocol::millis()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.255514] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:42:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.255628] (ros2_control_demo_example_1) StderrLine: {'line': b'   42 | void FSUS_Protocol::closePort\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.255708] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.255955] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:49:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256020] (ros2_control_demo_example_1) StderrLine: {'line': b'   49 | void FSUS_Protocol::delay_ms\x1b[01;31m\x1b[K(\x1b[m\x1b[Kuint32_t microsecond){\n'}
+[1.256093] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.256139] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:59:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256185] (ros2_control_demo_example_1) StderrLine: {'line': b'   59 | void FSUS_Protocol::write\x1b[01;31m\x1b[K(\x1b[m\x1b[Kuint8_t value){\n'}
+[1.256228] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.256271] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:64:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256326] (ros2_control_demo_example_1) StderrLine: {'line': b'   64 | bool FSUS_Protocol::read\x1b[01;31m\x1b[K(\x1b[m\x1b[Kuint8_t* value){\n'}
+[1.256369] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.256413] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:77:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256458] (ros2_control_demo_example_1) StderrLine: {'line': b'   77 | int FSUS_Protocol::readAll\x1b[01;31m\x1b[K(\x1b[m\x1b[Kuint8_t* buffer){\n'}
+[1.256500] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.256543] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:82:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256587] (ros2_control_demo_example_1) StderrLine: {'line': b'   82 | int FSUS_Protocol::available\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.256629] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.256672] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:101:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256797] (ros2_control_demo_example_1) StderrLine: {'line': b'  101 | void FSUS_Protocol::sendPack\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.256846] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.256916] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:140:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.256978] (ros2_control_demo_example_1) StderrLine: {'line': b'  140 | void FSUS_Protocol::emptyCache\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.257020] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.257065] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:149:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.257131] (ros2_control_demo_example_1) StderrLine: {'line': b'  149 | void FSUS_Protocol::initResponsePack\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.257211] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.257416] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:159:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.257467] (ros2_control_demo_example_1) StderrLine: {'line': b'  159 | FSUS_STATUS FSUS_Protocol::recvPack\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.257527] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.257578] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:224:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.257625] (ros2_control_demo_example_1) StderrLine: {'line': b'  224 | FSUS_CHECKSUM_T FSUS_Protocol::calcPackChecksum\x1b[01;31m\x1b[K(\x1b[m\x1b[Kconst FSUS_PACKAGE_T *package){\n'}
+[1.257688] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.257730] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:243:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.257780] (ros2_control_demo_example_1) StderrLine: {'line': b'  243 | FSUS_PACKAGE_SIZE_T FSUS_Protocol::getPackSize\x1b[01;31m\x1b[K(\x1b[m\x1b[Kconst FSUS_PACKAGE_T *package){\n'}
+[1.257845] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.257914] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:249:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.257984] (ros2_control_demo_example_1) StderrLine: {'line': b'  249 | void FSUS_Protocol::sendPing\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.258063] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.258127] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:257:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.258176] (ros2_control_demo_example_1) StderrLine: {'line': b'  257 | FSUS_STATUS FSUS_Protocol::recvPing\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T* servoId, bool *isOnline){\n'}
+[1.258223] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.258270] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:268:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.258319] (ros2_control_demo_example_1) StderrLine: {'line': b'  268 | void FSUS_Protocol::sendSetAngle\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_INTERVAL_T interval,FSUS_POWER_T power){\n'}
+[1.258367] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.258413] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:283:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.258460] (ros2_control_demo_example_1) StderrLine: {'line': b'  283 | void FSUS_Protocol::sendSetAngleByInterval\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_INTERVAL_T interval, FSUS_INTERVAL_T t_acc, FSUS_INTERVAL_T t_dec, FSUS_POWER_T power){\n'}
+[1.258510] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.258556] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:302:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.258613] (ros2_control_demo_example_1) StderrLine: {'line': b'  302 | void FSUS_Protocol::sendSetAngleByVelocity\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_SERVO_SPEED_T velocity, FSUS_INTERVAL_T t_acc, FSUS_INTERVAL_T t_dec, FSUS_POWER_T power){\n'}
+[1.258662] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.258774] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:322:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.258834] (ros2_control_demo_example_1) StderrLine: {'line': b'  322 | void FSUS_Protocol::sendQueryAngle\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.258880] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.258925] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:330:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.258971] (ros2_control_demo_example_1) StderrLine: {'line': b'  330 | FSUS_STATUS FSUS_Protocol::recvQueryAngle\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T *servoId, FSUS_SERVO_ANGLE_T *angle){\n'}
+[1.259016] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259062] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:350:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259107] (ros2_control_demo_example_1) StderrLine: {'line': b'  350 | void FSUS_Protocol::sendSetAngleMTurn\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle,FSUS_INTERVAL_T_MTURN interval,FSUS_POWER_T power){\n'}
+[1.259162] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259209] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:372:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259255] (ros2_control_demo_example_1) StderrLine: {'line': b'  372 | void FSUS_Protocol::sendSetAngleMTurnByInterval\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle, FSUS_INTERVAL_T_MTURN interval, \\\n'}
+[1.259306] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259352] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:402:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259446] (ros2_control_demo_example_1) StderrLine: {'line': b'  402 | void FSUS_Protocol::sendSetAngleMTurnByVelocity\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_SERVO_ANGLE_T angle, FSUS_SERVO_SPEED_T velocity, \\\n'}
+[1.259494] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259544] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:431:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259595] (ros2_control_demo_example_1) StderrLine: {'line': b'  431 | void FSUS_Protocol::sendQueryAngleMTurn\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.259640] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259684] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:439:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259729] (ros2_control_demo_example_1) StderrLine: {'line': b'  439 | FSUS_STATUS FSUS_Protocol::recvQueryAngleMTurn\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T *servoId, FSUS_SERVO_ANGLE_T *angle){\n'}
+[1.259774] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259818] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:460:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259863] (ros2_control_demo_example_1) StderrLine: {'line': b'  460 | void FSUS_Protocol::sendDamping\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_POWER_T power){\n'}
+[1.259908] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.259952] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:470:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.259998] (ros2_control_demo_example_1) StderrLine: {'line': b'  470 | void FSUS_Protocol::sendResetUserData\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.260090] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.260152] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:478:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.260199] (ros2_control_demo_example_1) StderrLine: {'line': b'  478 | FSUS_STATUS FSUS_Protocol::recvResetUserData\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T *servoId, bool *result){\n'}
+[1.260245] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.260291] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:489:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.260338] (ros2_control_demo_example_1) StderrLine: {'line': b'  489 | void FSUS_Protocol::sendReadData\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, uint8_t address){\n'}
+[1.260383] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.260429] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:498:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.260503] (ros2_control_demo_example_1) StderrLine: {'line': b'  498 | FSUS_STATUS FSUS_Protocol::recvReadData\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T *servoId, uint8_t *address, uint8_t *contentLen, uint8_t *content){\n'}
+[1.260549] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.260592] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:513:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.260640] (ros2_control_demo_example_1) StderrLine: {'line': b'  513 | void FSUS_Protocol::sendWriteData\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, uint8_t address, uint8_t contentLen, uint8_t *content){\n'}
+[1.260685] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.260805] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:525:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.260872] (ros2_control_demo_example_1) StderrLine: {'line': b'  525 | FSUS_STATUS FSUS_Protocol::recvWriteData\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T *servoId, uint8_t *address, bool *result){\n'}
+[1.260916] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.260959] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:536:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261005] (ros2_control_demo_example_1) StderrLine: {'line': b'  536 | void FSUS_Protocol::sendSetOriginPoint\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.261069] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.261114] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:545:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261169] (ros2_control_demo_example_1) StderrLine: {'line': b'  545 | void FSUS_Protocol::sendResetMultiTurnAngle\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.261215] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.261261] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:553:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261314] (ros2_control_demo_example_1) StderrLine: {'line': b'  553 | void FSUS_Protocol::sendServoBeginAsync\x1b[01;31m\x1b[K(\x1b[m\x1b[K){\n'}
+[1.261379] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.261445] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:560:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261492] (ros2_control_demo_example_1) StderrLine: {'line': b'  560 | void FSUS_Protocol::sendServoEndAsync\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_MODE_T mode){\n'}
+[1.261548] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.261594] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:572:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261640] (ros2_control_demo_example_1) StderrLine: {'line': b'  572 | void FSUS_Protocol::sendServoMonitor\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId){\n'}
+[1.261687] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.261733] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:580:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261780] (ros2_control_demo_example_1) StderrLine: {'line': b'  580 | FSUS_STATUS FSUS_Protocol::recvQueryServoMonitor\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T *servoId, FSUS_ServoMonitor *servodata){\n'}
+[1.261838] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.261887] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:603:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.261934] (ros2_control_demo_example_1) StderrLine: {'line': b'  603 | void FSUS_Protocol::sendStopOnControlMode\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_ID_T servoId, FSUS_MODE_T mode, FSUS_POWER_T power){\n'}
+[1.261980] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.262027] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:619:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.262133] (ros2_control_demo_example_1) StderrLine: {'line': b'  619 | void FSUS_Protocol::sendSyncCommand\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_COUNT_T servo_count,FSUS_MODE_T sync_mode, FSUS_Sync_T Syncsend[]){\n'}
+[1.262182] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.262229] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:838:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.262277] (ros2_control_demo_example_1) StderrLine: {'line': b'  838 | FSUS_STATUS FSUS_Protocol::recvQuerySyncCommand\x1b[01;31m\x1b[K(\x1b[m\x1b[KFSUS_SERVO_COUNT_T servo_count, FSUS_ServoMonitor Syncmonitor[]) {\n'}
+[1.262333] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.262380] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:888:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[1.262429] (ros2_control_demo_example_1) StderrLine: {'line': b'  888 | }\n'}
+[1.262474] (ros2_control_demo_example_1) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.262527] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:31:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.262576] (ros2_control_demo_example_1) StderrLine: {'line': b'   31 | uint32_t FSUS_Protocol::millis()\x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[1.262623] (ros2_control_demo_example_1) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.309557] (-) TimerEvent: {}
+[1.333668] (ros2_control_demo_example_1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:104: CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServoProtocol.cpp.o] Error 1\n'}
+[1.333846] (ros2_control_demo_example_1) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.410094] (-) TimerEvent: {}
+[1.510787] (-) TimerEvent: {}
+[1.611433] (-) TimerEvent: {}
+[1.711898] (-) TimerEvent: {}
+[1.812533] (-) TimerEvent: {}
+[1.913213] (-) TimerEvent: {}
+[2.013929] (-) TimerEvent: {}
+[2.114594] (-) TimerEvent: {}
+[2.215237] (-) TimerEvent: {}
+[2.315751] (-) TimerEvent: {}
+[2.416448] (-) TimerEvent: {}
+[2.517069] (-) TimerEvent: {}
+[2.617742] (-) TimerEvent: {}
+[2.718266] (-) TimerEvent: {}
+[2.819130] (-) TimerEvent: {}
+[2.916890] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_1::MyBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.917094] (ros2_control_demo_example_1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:174:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<std::shared_ptr<fsuservo::FSUS_Servo> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KclosePort\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.917155] (ros2_control_demo_example_1) StderrLine: {'line': b'  174 |   servos_.\x1b[01;31m\x1b[KclosePort\x1b[m\x1b[K();\n'}
+[2.917217] (ros2_control_demo_example_1) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.919711] (-) TimerEvent: {}
+[3.020339] (-) TimerEvent: {}
+[3.120977] (-) TimerEvent: {}
+[3.221485] (-) TimerEvent: {}
+[3.322154] (-) TimerEvent: {}
+[3.422833] (-) TimerEvent: {}
+[3.475769] (ros2_control_demo_example_1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:76: CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o] Error 1\n'}
+[3.476003] (ros2_control_demo_example_1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_example_1.dir/all] Error 2\n'}
+[3.476164] (ros2_control_demo_example_1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.478985] (ros2_control_demo_example_1) CommandEnded: {'returncode': 2}
+[3.490547] (ros2_control_demo_example_1) JobEnded: {'identifier': 'ros2_control_demo_example_1', 'rc': 2}
+[3.501221] (-) EventReactorShutdown: {}

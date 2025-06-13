@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/feng/train_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_1[0m
+[0.307s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServo.cpp.o[0m
+[0.307s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[2.722s] [01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_1::MyBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.722s] [01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:189:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kservo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.722s]   189 |   for (auto &[01;35m[Kservo[m[K : servos_) {
+[2.722s]       |              [01;35m[K^~~~~[m[K
+[3.875s] [ 30%] [32m[1mLinking CXX shared library libros2_control_demo_example_1.so[0m
+[4.925s] [100%] Built target ros2_control_demo_example_1
+[4.935s] Invoked command in '/home/feng/train_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8
+[4.946s] Invoking command in '/home/feng/train_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/feng/train_ws/build/ros2_control_demo_example_1
+[4.953s] -- Install configuration: ""
+[4.954s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/ros2_control_demo_example_1.xml
+[4.954s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1
+[4.954s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1
+[4.954s] -- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1/rrbot.hpp
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/description
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/description/mybot.urdf.xacro
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/view_rrbot.launch.py
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/rrbot.launch.py
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_joint_trajectory_controller.launch.py
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_forward_position_controller.launch.py
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_controllers.yaml
+[4.955s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_hardware.yaml
+[4.956s] -- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so
+[4.958s] -- Set runtime path of "/home/feng/train_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so" to ""
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.sh
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.dsv
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_1
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_1
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.sh
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.dsv
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.sh
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.dsv
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.bash
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.sh
+[4.958s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.zsh
+[4.959s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.dsv
+[4.959s] -- Installing: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv
+[4.959s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/packages/ros2_control_demo_example_1
+[4.959s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_1
+[4.959s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export.cmake
+[4.960s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export-noconfig.cmake
+[4.960s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_targets-extras.cmake
+[4.960s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.960s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config.cmake
+[4.960s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config-version.cmake
+[4.960s] -- Up-to-date: /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.xml
+[4.962s] Invoked command in '/home/feng/train_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/feng/train_ws/build/ros2_control_demo_example_1

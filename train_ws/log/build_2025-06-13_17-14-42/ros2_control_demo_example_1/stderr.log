@@ -1,0 +1,8 @@
+[01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_1::MyBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:174:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kservo[m[K’ was not declared in this scope; did you mean ‘[01m[Kservos_[m[K’?
+  174 |   [01;31m[Kservo[m[K->closePort();
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kservos_[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:76: CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_example_1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

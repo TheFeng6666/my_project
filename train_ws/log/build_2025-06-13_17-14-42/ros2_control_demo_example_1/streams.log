@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/feng/train_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_1[0m
+[0.073s] [ 10%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[2.303s] [01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_1::MyBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.304s] [01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:174:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kservo[m[K’ was not declared in this scope; did you mean ‘[01m[Kservos_[m[K’?
+[2.304s]   174 |   [01;31m[Kservo[m[K->closePort();
+[2.304s]       |   [01;31m[K^~~~~[m[K
+[2.304s]       |   [32m[Kservos_[m[K
+[2.861s] gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:76: CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o] Error 1
+[2.861s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_example_1.dir/all] Error 2
+[2.861s] gmake: *** [Makefile:146: all] Error 2
+[2.864s] Invoked command in '/home/feng/train_ws/build/ros2_control_demo_example_1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8

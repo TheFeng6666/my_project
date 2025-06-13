@@ -1,0 +1,16 @@
+[0.018s] Invoking command in '/home/feng/train_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_1[0m
+[0.076s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[0.076s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/sdk/src/FashionStar_UartServoProtocol.cpp.o[0m
+[0.483s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:[m[K In member function ‘[01m[Kuint8_t fsuservo::FSUS_Protocol::recvQueryServoMonitor(fsuservo::FSUS_SERVO_ID_T*, fsuservo::FSUS_ServoMonitor*)[m[K’:
+[0.484s] [01m[K/home/feng/train_ws/src/example_1/hardware/sdk/src/FashionStar_UartServoProtocol.cpp:583:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KservoId[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.484s]   583 | FSUS_STATUS FSUS_Protocol::recvQueryServoMonitor([01;35m[KFSUS_SERVO_ID_T *servoId[m[K, FSUS_ServoMonitor *servodata){
+[0.484s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.313s] [01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_1::MyBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.313s] [01m[K/home/feng/train_ws/src/example_1/hardware/rrbot.cpp:174:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<std::shared_ptr<fsuservo::FSUS_Servo> >[m[K’ has no member named ‘[01m[KclosePort[m[K’
+[2.313s]   174 |   servos_.[01;31m[KclosePort[m[K();
+[2.314s]       |           [01;31m[K^~~~~~~~~[m[K
+[2.868s] gmake[2]: *** [CMakeFiles/ros2_control_demo_example_1.dir/build.make:76: CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o] Error 1
+[2.869s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_example_1.dir/all] Error 2
+[2.869s] gmake: *** [Makefile:146: all] Error 2
+[2.871s] Invoked command in '/home/feng/train_ws/build/ros2_control_demo_example_1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feng/train_ws/build/ros2_control_demo_example_1 -- -j8 -l8
