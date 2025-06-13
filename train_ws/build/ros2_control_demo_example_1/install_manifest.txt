@@ -6,9 +6,7 @@
 /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_joint_trajectory_controller.launch.py
 /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_forward_position_controller.launch.py
 /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_controllers.yaml
-/home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_forward_position_publisher.yaml
 /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_hardware.yaml
-/home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_joint_trajectory_publisher.yaml
 /home/feng/train_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so
 /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.sh
 /home/feng/train_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.dsv

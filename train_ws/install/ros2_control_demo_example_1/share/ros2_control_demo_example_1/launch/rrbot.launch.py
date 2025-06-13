@@ -72,20 +72,10 @@ def generate_launch_description():
         ]
     )
 
-
-    # Get the absolute path to the URDF file
-    robot_description_path = os.path.join(
-        get_package_share_directory("ros2_control_demo_example_1"),
-        "description",
-        "mybot.urdf.xacro"
-    )
-
-    robot_description_config = xacro.process_file(robot_description_path)
-
     control_node = Node(
         package="controller_manager",
         executable="ros2_control_node",
-        parameters=[robot_controllers, hardware_config],
+        parameters=[robot_controllers],
         output="both",
         remappings=[
             ("~/robot_description", "/robot_description"),
@@ -109,12 +99,14 @@ def generate_launch_description():
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
+        output="screen",
         arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
     )
 
     robot_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
+        output="screen",
         arguments=["forward_position_controller", "--controller-manager", "/controller_manager"],
     )
 
